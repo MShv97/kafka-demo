@@ -1,0 +1,24 @@
+Consumer groups
+
+(One service approach)
+Notification service:
+    Main service
+    SMS service
+    WhatsApp service
+    Telegram service
+
+Alarm service:
+    1- Create alarm (need notification)
+    2- Comment on alarm (need notification)
+    3- Terminate alarm
+
+
+(Multi service approach)
+Same as above, three services each
+
+
+Dockerize one service approach
+compose one service approach
+
+Dockerize multi service approach
+compose multi service approach

@@ -1,0 +1,22 @@
+{
+  "name": "disrupt-x-backend-ms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "docker": "docker build . -t disrupt-x-backend-ms",
+    "dockerRun": "docker run -p 8080:8080 disrupt-x-backend-ms --name rest-server disrupt-x-backend-ms"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git-codecommit.eu-west-2.amazonaws.com/v1/repos/Disrupt-X-Backend-MS"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "kafkajs": "^1.15.0"
+  }
+}
